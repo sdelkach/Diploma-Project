@@ -61,10 +61,11 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 |---------|---------|----------|------------|
 | VLAN 503 | Management | 10.0.503.0/24 | Proxmox, Virtualizor, Nginx |
 | VLAN 669 | Billing | 10.0.669.0/24 | Blesta, Internal Services |
-| External | Client VPS | 95.214.117.0/24 | Public IP pool |
+| External | Client VPS | 95.2xx.1xx.0/24 | Public IP pool |
 
 ### Component Flow
 
+![Architecture](docs/architecture.svg)
 <svg width="900" height="720" viewBox="0 0 900 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial">
 
 <style>
