@@ -59,7 +59,6 @@
 
 <rect x="350" y="575" width="200" height="60" class="node compute"/>
 <text x="450" y="603" class="text">Proxmox Cluster</text>
-<text x="450" y="620" class="small">HA Enabled / Ceph</text>
 
 <rect x="260" y="650" width="120" height="55" class="node compute"/>
 <text x="320" y="675" class="text">Node 1</text>
