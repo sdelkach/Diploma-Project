@@ -110,15 +110,15 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 | **Virtualizor** | 3 | 6 GB | 100 GB | VLAN 503 + 669 | VPS Management |
 
 #### Nginx VM
-<div align="center"><img width="1191" height="467" alt="image" src="https://github.com/user-attachments/assets/f824082b-e4e3-4428-9e40-58686fcb9561" />
+<img width="1191" height="467" alt="image" src="https://github.com/user-attachments/assets/f824082b-e4e3-4428-9e40-58686fcb9561" />
 
 
 #### Virtualizor VM
-<div align="center"><img width="1126" height="465" alt="image" src="https://github.com/user-attachments/assets/066de80b-4bd9-4c8e-b007-b8ef211d1ac2" />
+<img width="1126" height="465" alt="image" src="https://github.com/user-attachments/assets/066de80b-4bd9-4c8e-b007-b8ef211d1ac2" />
 
 
 #### Blesta VM
-<div align="center"><img width="1050" height="423" alt="image" src="https://github.com/user-attachments/assets/a1284dbf-e247-4fdd-b770-687c36e1b94d" />
+<img width="1050" height="423" alt="image" src="https://github.com/user-attachments/assets/a1284dbf-e247-4fdd-b770-687c36e1b94d" />
 
 
 ## Configuration  & setup
