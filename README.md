@@ -36,3 +36,35 @@ This project implements an automated billing system integrated with Proxmox VE v
 
 <img width="974" height="299" alt="image" src="https://github.com/user-attachments/assets/fc1ad91c-0df1-462f-85d7-59dd5324e84d" />
 
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| Virtualization | Proxmox VE 8.4, KVM, LXC |
+| Management | Virtualizor Master Panel |
+| Billing | Blesta 5.x |
+| Web Server | Nginx (Reverse Proxy) |
+| Hardware | HPE ProLiant DL360p Gen8 (3 nodes) |
+| OS | Ubuntu 20.04 LTS, Debian 12 |
+| Monitoring | Zabbix 6.0 + Wirenboard |
+
+---
+
+## 📊 Results
+
+| Metric | Value |
+|--------|-------|
+| Deployment Time | 1-2 hours (via templates) |
+| VM Rollout | Fully automated |
+| Billing Accuracy | 100% (resource-based) |
+| Cluster Nodes | 3 physical servers |
+| Max Concurrent VMs | 20+ (tested) |
+| Payback Period | ~10 months |
+
+---
+
+## 📁 Project Structure
+
