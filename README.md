@@ -65,63 +65,80 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 
 ### Component Flow
 
-```mermaid
-flowchart TB
-    subgraph INTERNET["🌐 INTERNET<br/><b>Public Network</b>"]
-        direction TB
-        INT[("fa:fa-cloud Internet")]
-    end
+<svg width="900" height="720" viewBox="0 0 900 720" xmlns="http://www.w3.org/2000/svg" font-family="Arial">
 
-    subgraph DMZ["🛡️ DMZ ZONE<br/><b>VLAN 503 | 10.0.503.0/24</b>"]
-        direction TB
-        MT["fa:fa-shield-halved MikroTik CCR1036<br/><b>Border Router + Firewall</b>"]
-        NGX["fa:fa-server ZB-NGINX<br/><b>Reverse Proxy</b><br/>443/TCP, 80/TCP"]
-    end
+<style>
+.box { fill:#2c3e50; stroke:#1a252f; stroke-width:2; rx:10 }
+.dmz { fill:#e74c3c }
+.internal { fill:#2ecc71 }
+.mgmt { fill:#8e44ad }
+.compute { fill:#16a085 }
+.storage { fill:#7f8c8d }
+.text { fill:white; font-size:14px; text-anchor:middle }
+.title { fill:#ecf0f1; font-size:18px; font-weight:bold; text-anchor:middle }
+.line { stroke:#bdc3c7; stroke-width:2 }
+</style>
 
-    subgraph INTERNAL["🔒 INTERNAL ZONE<br/><b>VLAN 669 | 10.0.669.0/24</b>"]
-        direction TB
-        
-        subgraph MANAGEMENT["⚙️ Management Layer"]
-            BLESTA["fa:fa-file-invoice-dollar ZB-BLESTA<br/><b>Billing Panel</b><br/>80/TCP, 443/TCP"]
-            VZ["fa:fa-sliders VZ-MASTER<br/><b>Virtualizor Control</b><br/>4083/TCP, 4085/TCP"]
-        end
-        
-        subgraph COMPUTE["🖥️ Compute Layer"]
-            direction LR
-            PVE["fa:fa-server PROXMOX CLUSTER<br/><b>HA Enabled | Ceph Storage</b>"]
-            
-            N1["fa:fa-server Node 1<br/><b>101-3-28</b><br/>HPE DL360p Gen8"]
-            N2["fa:fa-server Node 2<br/><b>101-3-29</b><br/>HPE DL360p Gen8"]
-            N3["fa:fa-server Node 3<br/><b>101-3-30</b><br/>HPE DL360p Gen8"]
-        end
-        
-        subgraph STORAGE["💾 Storage Layer"]
-            LVM[("fa:fa-disk LVM Storage<br/><b>Distributed | Thin Provisioning</b>")]
-        end
-    end
+<!-- Internet -->
+<text x="450" y="30" class="title">Internet</text>
+<rect x="375" y="50" width="150" height="50" class="box"/>
+<text x="450" y="80" class="text">Internet</text>
 
-    %% Connections
-    INT ==>|"<b>1 Gbps</b><br/>Public Traffic"| MT
-    MT ==>|"<b>Firewall Rules</b><br/>NAT, ACL"| NGX
-    NGX ==>|"<b>10 Gbps BOND</b><br/>Aggregated Link"| BLESTA
-    NGX ==>|"<b>10 Gbps BOND</b><br/>Aggregated Link"| VZ
-    BLESTA -.->|"<b>API</b><br/>JSON-RPC"| VZ
-    VZ ==>|"<b>API</b><br/>Proxmox VE 8.4"| PVE
-    PVE --> N1
-    PVE --> N2
-    PVE --> N3
-    N1 & N2 & N3 ==> LVM
+<!-- DMZ -->
+<text x="450" y="140" class="title">DMZ | VLAN 503</text>
 
-    %% Styling
-    classDef internet fill:#3498DB,stroke:#2980B9,stroke-width:2px,color:#fff,font-weight:bold
-    classDef dmz fill:#E74C3C,stroke:#C0392B,stroke-width:2px,color:#fff,font-weight:bold
-    classDef internal fill:#2ECC71,stroke:#27AE60,stroke-width:2px,color:#fff,font-weight:bold
-    classDef management fill:#9B59B6,stroke:#8E44AD,stroke-width:2px,color:#fff
-    classDef compute fill:#1ABC9C,stroke:#16A085,stroke-width:2px,color:#fff
-    classDef storage fill:#95A5A6,stroke:#7F8C8D,stroke-width:2px,color:#fff
+<rect x="330" y="160" width="240" height="60" class="box dmz"/>
+<text x="450" y="190" class="text">MikroTik CCR1036</text>
+<text x="450" y="210" class="text">Border Router / Firewall</text>
 
-    class INT internet
-    class MT,NGX dmz
-    class BLESTA,VZ management
-    class PVE,N1,N2,N3 compute
-    class LVM storage
+<rect x="330" y="240" width="240" height="60" class="box dmz"/>
+<text x="450" y="270" class="text">ZB-NGINX</text>
+<text x="450" y="290" class="text">Reverse Proxy 80 / 443</text>
+
+<!-- Management -->
+<text x="450" y="350" class="title">Management Layer</text>
+
+<rect x="230" y="370" width="200" height="70" class="box mgmt"/>
+<text x="330" y="400" class="text">ZB-BLESTA</text>
+<text x="330" y="420" class="text">Billing Panel</text>
+
+<rect x="470" y="370" width="200" height="70" class="box mgmt"/>
+<text x="570" y="400" class="text">VZ-MASTER</text>
+<text x="570" y="420" class="text">Virtualizor</text>
+
+<!-- Proxmox -->
+<text x="450" y="480" class="title">Compute Layer</text>
+
+<rect x="330" y="500" width="240" height="70" class="box compute"/>
+<text x="450" y="530" class="text">Proxmox Cluster</text>
+<text x="450" y="550" class="text">HA | Ceph</text>
+
+<!-- Nodes -->
+<rect x="180" y="600" width="160" height="60" class="box compute"/>
+<text x="260" y="630" class="text">Node 1</text>
+<text x="260" y="648" class="text">HPE DL360p</text>
+
+<rect x="370" y="600" width="160" height="60" class="box compute"/>
+<text x="450" y="630" class="text">Node 2</text>
+<text x="450" y="648" class="text">HPE DL360p</text>
+
+<rect x="560" y="600" width="160" height="60" class="box compute"/>
+<text x="640" y="630" class="text">Node 3</text>
+<text x="640" y="648" class="text">HPE DL360p</text>
+
+<!-- Storage -->
+<text x="450" y="700" class="title">Distributed LVM Storage</text>
+
+<!-- Lines -->
+<line x1="450" y1="100" x2="450" y2="160" class="line"/>
+<line x1="450" y1="220" x2="450" y2="240" class="line"/>
+<line x1="450" y1="300" x2="330" y2="370" class="line"/>
+<line x1="450" y1="300" x2="570" y2="370" class="line"/>
+
+<line x1="570" y1="440" x2="450" y2="500" class="line"/>
+
+<line x1="450" y1="570" x2="260" y2="600" class="line"/>
+<line x1="450" y1="570" x2="450" y2="600" class="line"/>
+<line x1="450" y1="570" x2="640" y2="600" class="line"/>
+
+</svg>
