@@ -59,9 +59,8 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 
 | VLAN ID | Purpose | IP Range | Components |
 |---------|---------|----------|------------|
-| VLAN 503 | Management | 10.0.503.0/24 | Proxmox, Virtualizor, Nginx |
-| VLAN 669 | Billing | 10.0.669.0/24 | Blesta, Internal Services |
-| External | Client VPS | 95.2xx.1xx.0/24 | Public IP pool |
+| VLAN 503(ext) | Billing | 95.2xx.1xx.0/24 | Nginx proxy, Public IP |
+| VLAN 669(int) | Management | 172.25.3.0/16 | Proxmox, Virtualizor, Blesta |
 
 ### Component Flow
 
@@ -111,12 +110,15 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 | **Virtualizor** | 3 | 6 GB | 100 GB | VLAN 503 + 669 | VPS Management |
 
 #### Nginx VM
-<div align="center"><img width="621" height="247" alt="image" src="https://github.com/user-attachments/assets/17edeb88-3a6f-48f7-a8ec-dc505b2f25fa" />
+<div align="center"><img width="1191" height="467" alt="image" src="https://github.com/user-attachments/assets/f824082b-e4e3-4428-9e40-58686fcb9561" />
+
 
 #### Virtualizor VM
-<div align="center"><img width="587" height="243" alt="image" src="https://github.com/user-attachments/assets/954c8fd6-6d87-4ae4-82b5-e20caf756ed6" />
+<div align="center"><img width="1126" height="465" alt="image" src="https://github.com/user-attachments/assets/066de80b-4bd9-4c8e-b007-b8ef211d1ac2" />
+
 
 #### Blesta VM
-<div align="center"><img width="545" height="221" alt="image" src="https://github.com/user-attachments/assets/54f2b421-5f25-4343-9bd8-246a4e2b0a96" />
+<div align="center"><img width="1050" height="423" alt="image" src="https://github.com/user-attachments/assets/a1284dbf-e247-4fdd-b770-687c36e1b94d" />
+
 
 
