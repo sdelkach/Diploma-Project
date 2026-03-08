@@ -27,7 +27,7 @@
 
 <!-- DMZ ZONE -->
 <rect x="260" y="120" width="380" height="180" class="zone"/>
-<text x="450" y="140" class="title">DMZ ZONE | VLAN 503 | 10.0.503.0/24</text>
+<text x="450" y="140" class="title">DMZ ZONE | VLAN 503 | 95.2xx.1xx.0/24</text>
 
 <rect x="360" y="160" width="180" height="60" class="node dmz"/>
 <text x="450" y="188" class="text">MikroTik CCR1036</text>
@@ -39,7 +39,7 @@
 
 <!-- INTERNAL ZONE -->
 <rect x="140" y="330" width="620" height="380" class="zone"/>
-<text x="450" y="350" class="title">INTERNAL ZONE | VLAN 669 | 10.0.669.0/24</text>
+<text x="450" y="350" class="title">INTERNAL ZONE | VLAN 669 | 1xx.2x.3.0/16</text>
 
 <!-- MANAGEMENT -->
 <rect x="260" y="370" width="380" height="150" class="zone"/>
