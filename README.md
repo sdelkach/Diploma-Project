@@ -1,2 +1,36 @@
 # Diploma-Project
 Billing integration with Proxmox Virtualization.
+
+# Proxmox VE Billing Integration System
+
+> Automated VPS provisioning and billing system for Data Center infrastructure
+
+![Proxmox](https://img.shields.io/badge/Proxmox-VE8.4-orange)
+![Virtualizor](https://img.shields.io/badge/Virtualizor-KVM-green)
+![Blesta](https://img.shields.io/badge/Blesta-Billing-blue)
+![Linux](https://img.shields.io/badge/OS-Ubuntu%2FDebian-black)
+
+---
+
+## 📋 Overview
+
+This project implements an automated billing system integrated with Proxmox VE virtualization platform. The solution enables Data Centers to provide VPS services with automatic provisioning, resource tracking, and invoice generation.
+
+**Live Demo:** [Link to demo if available]  
+**Documentation:** [See /docs folder]
+
+---
+
+## 🎯 Key Features
+
+- ✅ Automated VPS provisioning via Blesta + Virtualizor API
+- ✅ Resource-based billing (CPU, RAM, Storage, Bandwidth)
+- ✅ Multi-node Proxmox cluster support (3x HPE DL360p Gen8)
+- ✅ Client self-service portal
+- ✅ Automated notifications (Email, Telegram)
+- ✅ 99.9% uptime SLA compliance
+
+---
+
+## 🏗️ Architecture
+
