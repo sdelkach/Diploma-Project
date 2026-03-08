@@ -5,11 +5,10 @@ Billing integration with Proxmox Virtualization.
 
 > Automated VPS provisioning and billing system for Data Center infrastructure
 
-![Proxmox](https://img.shields.io/badge/Proxmox-VE8.4-orange?style=for-the-badge)
-![Virtualizor](https://img.shields.io/badge/Virtualizor-KVM-green?style=for-the-badge)
-![Blesta](https://img.shields.io/badge/Blesta-Billing-blue?style=for-the-badge)
-![Linux](https://img.shields.io/badge/OS-Ubuntu%2FDebian-black?style=for-the-badge)
-
+![Proxmox](https://img.shields.io/badge/Proxmox-VE8.4-orange)
+![Virtualizor](https://img.shields.io/badge/Virtualizor-KVM-green)
+![Blesta](https://img.shields.io/badge/Blesta-Billing-blue)
+![Linux](https://img.shields.io/badge/OS-Ubuntu%2FDebian-black)
 ---
 
 ## 📋 Table of Contents
