@@ -151,18 +151,76 @@ php-xml \
 php-mbstring \
 php-gd
 ```
-Full blesta installation guide here - https://docs.blesta.com/installation
+Full blesta installation guide is here: https://docs.blesta.com/installation
 
-#### 2) Setup
+#### 2) Setup 
+(This step should begining after virtualizor installation is already completed!!!)
 
 Open in browser:
 ```
-https://your-domain.com/blesta
+https://your-domain.com/blesta (short path provided by our nginx reverse proxy)
 ```
+And go to the packages settings, so, for Blesta, Virtualizor have official packages which installed by instructions:
+https://www.virtualizor.com/docs/billing/blesta-module/
+And, here it is:
+<img width="957" height="376" alt="image" src="https://github.com/user-attachments/assets/a500733a-0aa1-445e-95a2-e05e81881007" />
+
 
 ### Virtualizor Panel
 #### 1) Installation
 
+(Just download official script and choose right options, after that press enter and wait)
 <img width="862" height="127" alt="image" src="https://github.com/user-attachments/assets/abb30475-971e-4310-b6bd-3cbc632c4b15" />
 <img width="606" height="175" alt="image" src="https://github.com/user-attachments/assets/f0561ec2-41be-4014-8acc-cdc607d27d0c" />
+Now, restart VM for complete changes and open in browser(https://external_ip/).
+<img width="1161" height="582" alt="image" src="https://github.com/user-attachments/assets/d85e6dcd-afe4-46ce-a633-61903b3edccf" />
+LogIn and checking important info in panel:
+<img width="1131" height="680" alt="image" src="https://github.com/user-attachments/assets/18894724-a326-4186-a8e2-c25897131755" />
+
+#### 2) IP Pools
+Virtualizor panel need to know which exactly networks should be used in working with commercial services provided by platform VM creation. Now, we needed add a two main networks in Virtualizor, which get access customers to their remote VMs(services).
+Add through netplan complete network config on VIrtualizor VM.(remember that the one VLAN just for remote access, and other for pairs with performance cluster servers, which are store all VMs).
+<img width="1156" height="480" alt="image" src="https://github.com/user-attachments/assets/6e0a77ea-8e5f-4a92-a16c-5393fe430f7b" />
+Add ip pool, by recommended way in official docs: https://www.virtualizor.com/docs/admin-api/create-ip-pool/
+External IP pool:
+<img width="1287" height="686" alt="image" src="https://github.com/user-attachments/assets/c444f6e3-8a52-4972-b261-1ffc91499a0e" />
+Internal IP pool:
+<img width="1270" height="698" alt="image" src="https://github.com/user-attachments/assets/f3f3fc97-a528-420a-a121-6393400e4af5" />
+
+After that, we early added media iso(just upload it from pc) for ending test of this whole project.
+<img width="1142" height="286" alt="image" src="https://github.com/user-attachments/assets/328f8594-05a5-4a28-ada9-65c7a4cab252" />
+
+Also i've added template(flexible paid tariff of service hosting).
+<img width="1216" height="547" alt="image" src="https://github.com/user-attachments/assets/d76b6713-f4c0-47bf-a0cc-5cc6013bdcc3" />
+
+
+
+### Proxmox Cluster nodes
+
+For complete all components of this project, we should have finish setuping pre-prepared server nodes, which have already proxmox installation and just needed Virtualizor install above them(important: kernel should be exactly Proxmox, not kvm or another, else work will broke). Cause earlier i show you how install through the script that panel, i've skip that step.
+
+After we've installed Virtualizor on every proxmox node in cluster(3 of 3), we must add from main server Virtualizor(VM) add slave servers(proxmox cluster nodes), and then our main server become a "Master server", from which we can setup any options on every slave nodes(needed some setup in API section(API token) inside proxmox):
+<img width="861" height="405" alt="image" src="https://github.com/user-attachments/assets/4cdf77ff-8d1b-45ef-9922-1b3c4fe649e5" />
+
+After that, we have 2 values(API token name & secret key), go to Master server to th panel, choose Servers--Add new server(and provide server info from the Slave server), then for a get access to creating, managing, deleting VMs, we provide 2 values from proxmox API section to the slave setup in left panel of main server Virtualizor:
+<img width="1078" height="445" alt="image" src="https://github.com/user-attachments/assets/872218b7-6d9e-44bf-99bb-4c82678b29b4" />
+
+Do the same with remain servers. Next step is adding LVM(multipath - pairs to all 3 nodes of cluster) storage, which have already setuped by other department(but you can imagine that the storage is just standard LVM, it doesnt matter in this case).
+<img width="492" height="123" alt="image" src="https://github.com/user-attachments/assets/e1bf6cc1-79ee-46de-ac47-28311ac47db7" />
+
+### Blesta - add 1st service
+1) add package
+Like we see earlier in this project, we have integration (Blesta to Virtualizor) module, so by module, which provide a lot of useful functions, we have to setup one test package based on that module. Firstly we must create our 1st purchase form for customers:
+<img width="996" height="502" alt="image" src="https://github.com/user-attachments/assets/acd78a42-a140-4d1d-ac3f-f31c7f1b0189" />
+
+
+Now, we can add package(with a specific options):
+<img width="1137" height="487" alt="image" src="https://github.com/user-attachments/assets/a25c05b4-91f3-4a22-ad7f-35f05b6c33a6" />
+Then, LogIn to the client Area and choose created package with a flexible options:
+<img width="932" height="593" alt="image" src="https://github.com/user-attachments/assets/5ef37016-aab0-4ad9-9d57-84728023fdee" />
+And cause we haven't right now working payment gateway, but we have also opportunity to accept service in the Staff Area:
+<img width="922" height="493" alt="image" src="https://github.com/user-attachments/assets/9fe97974-d28a-44ae-8682-94d8c7727536" />
+
+
+
 
