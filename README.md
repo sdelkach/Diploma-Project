@@ -53,7 +53,7 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 
 ### Network Topology
 
-<img width="974" height="299" alt="image" align="center" src="https://github.com/user-attachments/assets/fc1ad91c-0df1-462f-85d7-59dd5324e84d" />
+<div align="center"><img width="974" height="299" alt="image" src="https://github.com/user-attachments/assets/fc1ad91c-0df1-462f-85d7-59dd5324e84d" />
 
 ### VLAN Segmentation
 
@@ -68,9 +68,9 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 ![Architecture](docs/architecture.svg)
 
 ### HPE ProLiant DL360p Gen8 - Front View
-<img width="652" height="117" alt="image" align="center" src="https://github.com/user-attachments/assets/b4c0d58e-5db2-4108-9a8c-9af6e58f64d3" />
+<div align="center"><img width="652" height="117" alt="image" src="https://github.com/user-attachments/assets/b4c0d58e-5db2-4108-9a8c-9af6e58f64d3" />
 
 ### HPE ProLiant DL360p Gen8 - Rear View (Power & Network)
-<img width="528" height="128" alt="image" align="center" src="https://github.com/user-attachments/assets/806854d4-6324-4ecd-b322-d690adb5f147" />
+<div align="center"><img width="528" height="128" alt="image" src="https://github.com/user-attachments/assets/806854d4-6324-4ecd-b322-d690adb5f147" />
 
 
