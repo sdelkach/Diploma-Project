@@ -68,3 +68,8 @@ This project implements an automated billing system integrated with Proxmox VE v
 
 ## 📁 Project Structure
 
+├── README.md # This file
+├── docs/ # Full documentation
+├── configs/ # Configuration examples
+├── diagrams/ # Network diagrams
+└── scripts/ # Automation scripts
