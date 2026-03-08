@@ -5,71 +5,54 @@ Billing integration with Proxmox Virtualization.
 
 > Automated VPS provisioning and billing system for Data Center infrastructure
 
-![Proxmox](https://img.shields.io/badge/Proxmox-VE8.4-orange)
-![Virtualizor](https://img.shields.io/badge/Virtualizor-KVM-green)
-![Blesta](https://img.shields.io/badge/Blesta-Billing-blue)
-![Linux](https://img.shields.io/badge/OS-Ubuntu%2FDebian-black)
+![Proxmox](https://img.shields.io/badge/Proxmox-VE8.4-orange?style=for-the-badge)
+![Virtualizor](https://img.shields.io/badge/Virtualizor-KVM-green?style=for-the-badge)
+![Blesta](https://img.shields.io/badge/Blesta-Billing-blue?style=for-the-badge)
+![Linux](https://img.shields.io/badge/OS-Ubuntu%2FDebian-black?style=for-the-badge)
 
 ---
 
-## 📋 Overview
+## 📋 Table of Contents
 
-This project implements an automated billing system integrated with Proxmox VE virtualization platform. The solution enables Data Centers to provide VPS services with automatic provisioning, resource tracking, and invoice generation.
-
-**Live Demo:** [Link to demo if available]  
-**Documentation:** [See /docs folder]
+- [Overview](#-overview)
+- [Architecture](#-architecture)
+- [Hardware Specifications](#-hardware-specifications)
+- [Virtual Infrastructure](#-virtual-infrastructure)
+- [Implementation](#-implementation)
+- [Integration](#-integration)
+- [Economic Analysis](#-economic-analysis)
+- [Results](#-results)
+- [Documentation](#-documentation)
+- [Author](#-author)
 
 ---
 
-## 🎯 Key Features
+## 🎯 Overview
 
-- ✅ Automated VPS provisioning via Blesta + Virtualizor API
-- ✅ Resource-based billing (CPU, RAM, Storage, Bandwidth)
-- ✅ Multi-node Proxmox cluster support (3x HPE DL360p Gen8)
-- ✅ Client self-service portal
-- ✅ Automated notifications (Email, Telegram)
-- ✅ 99.9% uptime SLA compliance
+### Project Goal
+Automate VPS lifecycle management with integrated billing for Data Center operations.
+
+### Business Problem
+| Problem | Impact | Solution |
+|---------|--------|----------|
+| Manual VM provisioning | 1 day deployment time | Automated templates (1-2 hours) |
+| No resource tracking | Billing inaccuracies | Proxmox + Virtualizor metrics |
+| VMware license costs | High operational expenses | Proxmox VE (open-source) |
+
+### Solution Architecture
+Proxmox VE + Virtualizor + Blesta integration for full automation.
+
+### Scope
+- **3 physical nodes** (HPE DL360p Gen8)
+- **35+ client migration plan**
+- **99.9% SLA target**
+- **10 months payback period**
 
 ---
 
 ## 🏗️ Architecture
 
+### Network Topology
+
 <img width="974" height="299" alt="image" src="https://github.com/user-attachments/assets/fc1ad91c-0df1-462f-85d7-59dd5324e84d" />
 
-
----
-
-## 🛠️ Tech Stack
-
-| Component | Technology |
-|-----------|------------|
-| Virtualization | Proxmox VE 8.4, KVM, LXC |
-| Management | Virtualizor Master Panel |
-| Billing | Blesta 5.x |
-| Web Server | Nginx (Reverse Proxy) |
-| Hardware | HPE ProLiant DL360p Gen8 (3 nodes) |
-| OS | Ubuntu 20.04 LTS, Debian 12 |
-| Monitoring | Zabbix 6.0 + Wirenboard |
-
----
-
-## 📊 Results
-
-| Metric | Value |
-|--------|-------|
-| Deployment Time | 1-2 hours (via templates) |
-| VM Rollout | Fully automated |
-| Billing Accuracy | 100% (resource-based) |
-| Cluster Nodes | 3 physical servers |
-| Max Concurrent VMs | 20+ (tested) |
-| Payback Period | ~10 months |
-
----
-
-## 📁 Project Structure
-
-├── README.md # This file
-├── docs/ # Full documentation
-├── configs/ # Configuration examples
-├── diagrams/ # Network diagrams
-└── scripts/ # Automation scripts
