@@ -71,6 +71,6 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 <div align="center"><img width="652" height="117" alt="image" src="https://github.com/user-attachments/assets/b4c0d58e-5db2-4108-9a8c-9af6e58f64d3" />
 
 ### HPE ProLiant DL360p Gen8 - Rear View (Power & Network)
-<div align="center"><img width="652" height="128" alt="image" src="https://github.com/user-attachments/assets/806854d4-6324-4ecd-b322-d690adb5f147" />
+<div align="center"><img width="652" height="162" alt="image" src="https://github.com/user-attachments/assets/806854d4-6324-4ecd-b322-d690adb5f147" />
 
 
