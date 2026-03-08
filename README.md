@@ -67,10 +67,10 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 ![Architecture](docs/architecture.svg)
 
 ### HPE ProLiant DL360p Gen8 - Front View
-<div align="center"><img width="652" height="117" alt="image" src="https://github.com/user-attachments/assets/b4c0d58e-5db2-4108-9a8c-9af6e58f64d3" />
+<img width="652" height="117" alt="image" src="https://github.com/user-attachments/assets/b4c0d58e-5db2-4108-9a8c-9af6e58f64d3" />
 
 ### HPE ProLiant DL360p Gen8 - Rear View (Power & Network)
-<div align="center"><img width="652" height="162" alt="image" src="https://github.com/user-attachments/assets/806854d4-6324-4ecd-b322-d690adb5f147" />
+<img width="652" height="162" alt="image" src="https://github.com/user-attachments/assets/806854d4-6324-4ecd-b322-d690adb5f147" />
 
 ## Technical Specifications
 
@@ -121,4 +121,48 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 <div align="center"><img width="1050" height="423" alt="image" src="https://github.com/user-attachments/assets/a1284dbf-e247-4fdd-b770-687c36e1b94d" />
 
 
+## Configuration  & setup
+
+### Nginx Reverse Proxy
+#### 1) Installation nginx & utilities
+```bash
+sudo apt update
+
+sudo apt install -y nginx nginx-extras libmodsecurity3
+```
+#### 2) Configuration File:
+/etc/nginx/sites-available/billing
+
+<img width="1257" height="543" alt="image" src="https://github.com/user-attachments/assets/3c3d79f8-dae9-4643-b94d-22fa83e6b1e1" />
+
+### Blesta Billing System
+
+#### 1) Installation
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+
+sudo apt install -y \
+php \
+php-mysql \
+php-curl \
+php-xml \
+php-mbstring \
+php-gd
+```
+Full blesta installation guide here - https://docs.blesta.com/installation
+
+#### 2) Setup
+
+Open in browser:
+```
+https://your-domain.com/blesta
+```
+
+### Virtualizor Panel
+#### 1) Installation
+
+<img width="862" height="127" alt="image" src="https://github.com/user-attachments/assets/abb30475-971e-4310-b6bd-3cbc632c4b15" />
+<img width="606" height="175" alt="image" src="https://github.com/user-attachments/assets/f0561ec2-41be-4014-8acc-cdc607d27d0c" />
 
