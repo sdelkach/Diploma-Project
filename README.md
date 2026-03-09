@@ -176,28 +176,34 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 
 <img width="862" height="127" alt="image" src="https://github.com/user-attachments/assets/abb30475-971e-4310-b6bd-3cbc632c4b15" />
 
-<p>*Installation completed*</p>
-
+```markdown
+*Installation completed*
+```
 <img width="606" height="175" alt="image" src="https://github.com/user-attachments/assets/f0561ec2-41be-4014-8acc-cdc607d27d0c" />
-Now, restart VM for complete changes and open in browser(https://external_ip/).
+
+
+* **Now, restart VM for complete changes and open in browser(https://external_ip/).**
 <img width="1161" height="582" alt="image" src="https://github.com/user-attachments/assets/d85e6dcd-afe4-46ce-a633-61903b3edccf" />
-LogIn and checking important info in panel:
+
+* LogIn and checking important info in panel:
 <img width="1131" height="680" alt="image" src="https://github.com/user-attachments/assets/18894724-a326-4186-a8e2-c25897131755" />
 
 #### 2) IP Pools
-Virtualizor panel need to know which exactly networks should be used in working with commercial services provided by platform VM creation. Now, we needed add a two main networks in Virtualizor, which get access customers to their remote VMs(services).
-Add through netplan complete network config on VIrtualizor VM.(remember that the one VLAN just for remote access, and other for pairs with performance cluster servers, which are store all VMs).
+* Virtualizor panel need to know which exactly networks should be used in working with commercial services provided by platform VM creation. Now, we needed add a two main networks in Virtualizor, which get access customers to their remote VMs(services).
+* Add through netplan complete network config on VIrtualizor VM.(remember that the one VLAN just for remote access, and other for pairs with performance cluster servers, which are store all VMs).
 <img width="1156" height="480" alt="image" src="https://github.com/user-attachments/assets/6e0a77ea-8e5f-4a92-a16c-5393fe430f7b" />
-Add ip pool, by recommended way in official docs: https://www.virtualizor.com/docs/admin-api/create-ip-pool/
-External IP pool:
+
+* Add ip pool, by recommended way in official docs: https://www.virtualizor.com/docs/admin-api/create-ip-pool/
+> External IP pool:
 <img width="1287" height="686" alt="image" src="https://github.com/user-attachments/assets/c444f6e3-8a52-4972-b261-1ffc91499a0e" />
-Internal IP pool:
+
+> Internal IP pool:
 <img width="1270" height="698" alt="image" src="https://github.com/user-attachments/assets/f3f3fc97-a528-420a-a121-6393400e4af5" />
 
-After that, we early added media iso(just upload it from pc) for ending test of this whole project.
+* After that, we early added media iso(just upload it from pc) for ending test of this whole project.
 <img width="1142" height="286" alt="image" src="https://github.com/user-attachments/assets/328f8594-05a5-4a28-ada9-65c7a4cab252" />
 
-Also i've added template(flexible paid tariff of service hosting).
+* Also i've added template(flexible paid tariff of service hosting).
 <img width="1216" height="547" alt="image" src="https://github.com/user-attachments/assets/d76b6713-f4c0-47bf-a0cc-5cc6013bdcc3" />
 
 
