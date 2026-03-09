@@ -52,7 +52,7 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 ## 🏗️ Architecture
 
 ### Network Topology
-
+*Figure: Network architecture diagram*
 <img width="974" height="299" alt="image" src="https://github.com/user-attachments/assets/fc1ad91c-0df1-462f-85d7-59dd5324e84d" />
 
 ### VLAN Segmentation
