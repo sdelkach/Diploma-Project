@@ -13,13 +13,13 @@ Billing integration with Proxmox Virtualization.
 
 ## 📋 Table of Contents
 
-- [Overview](#-overview)
-- [Architecture](#-Architecture)
-- [Technical Specifications](#-technical-specifications)
-- [Rack Configuration](#-rack-configuration)
-- [Virtual Infrastructure](#-virtual-infrastructure)
-- [Configuration & setup](#-configuration-&-setup)
-- [Infrastructure Demo](#-infrastructure-demo)
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Technical Specifications](#technical-specifications)
+- [Rack Configuration](#rack-configuration)
+- [Virtual Infrastructure](#virtual-infrastructure)
+- [Configuration & setup](#configuration-&-setup)
+- [Infrastructure Demo](#infrastructure-demo)
 - [Results](#results)
 
 ---
