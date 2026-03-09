@@ -226,7 +226,9 @@ Bottom line: we created packages in blesta billing, made a flexible customizable
 Below I will show you a video of approximately the work without other improvements, but how it looks from the administrator's side, although it will affect the client-side parts at the beginning. 
 Happy viewing!!! 
 
+## 🎥 Infrastructure Demo
 
-![Watch the video] 
-(https://raw.githubusercontent.com/sdelkach/Diploma-Project/main/docs/VID_20260309_140302_161.mp4)
+[![Watch the video](docs/IMG_20260309_141920_830.jpg)](docs/VID_20260309_140302_161.mp4)
+
+*Click the image to watch the demo video.*
 
