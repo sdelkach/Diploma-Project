@@ -19,7 +19,7 @@ Billing integration with Proxmox Virtualization.
 - [Rack Configuration](#rack-configuration)
 - [Virtual Infrastructure](#virtual-infrastructure)
 - [Configuration](#configuration)
-- [Infrastructure](#infrastructure)
+- [🎥 Infrastructure](#🎥-infrastructure)
 - [Results](#results)
 
 ---
