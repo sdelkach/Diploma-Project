@@ -431,7 +431,7 @@ Infrastructure support and implementation**
 
 
 ## 🙏 Acknowledgments
-<br>
+
 * LLC DC Zelobit (infrastructure support)
 * Virtualizor Team (documentation and API)
 * Proxmox Community (technical support)
