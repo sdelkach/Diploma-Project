@@ -420,7 +420,7 @@ Network & System Administrator**
 Network and System Administration (09.02.06)
 Expected Graduation: July 2025**
 
----
+<br>
 
 ## Organization
 
@@ -433,7 +433,7 @@ Infrastructure support and implementation**
 
 **This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).**
 <br>
-<br>
+
 
 
 ## 🙏 Acknowledgments
@@ -443,7 +443,7 @@ Infrastructure support and implementation**
 * Proxmox Community (technical support)
 * Blesta Team (billing module)
 
-
+<br>
 
 
 ---
