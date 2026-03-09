@@ -1,5 +1,4 @@
 # Diploma-Project
-Proxmox VE Billing Integration
 
 # Proxmox VE Billing Integration System
 
