@@ -14,7 +14,7 @@ Billing integration with Proxmox Virtualization.
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [Architecture](#-architecture)
+- [Architecture](#architecture)
 - [Technical Specifications](#technical-specifications)
 - [Rack Configuration](#rack-configuration)
 - [Virtual Infrastructure](#virtual-infrastructure)
@@ -47,7 +47,7 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 
 ---
 
-## 🏗️ Architecture
+## 🏗️Architecture
 
 ### Network Topology
 
