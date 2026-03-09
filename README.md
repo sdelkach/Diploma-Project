@@ -52,7 +52,8 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 ## 🏗️ Architecture
 
 ### Network Topology
-*Figure: Network architecture diagram*
+
+*Network architecture diagram*
 <img width="974" height="299" alt="image" src="https://github.com/user-attachments/assets/fc1ad91c-0df1-462f-85d7-59dd5324e84d" />
 
 ### VLAN Segmentation
@@ -197,12 +198,14 @@ Also i've added template(flexible paid tariff of service hosting).
 
 ### Proxmox Cluster nodes
 
-For complete all components of this project, we should have finish setuping pre-prepared server nodes, which have already proxmox installation and just needed Virtualizor install above them(important: kernel should be exactly Proxmox, not kvm or another, else work will broke). Cause earlier i show you how install through the script that panel, i've skip that step.
+>For complete all components of this project, we should have finish setuping pre-prepared server nodes, which have already proxmox installation and just needed Virtualizor install above them(important: kernel should be exactly Proxmox, not kvm or another, else work will broke). Cause earlier i show you how install through the script that panel, i've skip that step.
 
-After we've installed Virtualizor on every proxmox node in cluster(3 of 3), we must add from main server Virtualizor(VM) add slave servers(proxmox cluster nodes), and then our main server become a "Master server", from which we can setup any options on every slave nodes(needed some setup in API section(API token) inside proxmox):
+>After we've installed Virtualizor on every proxmox node in cluster(3 of 3), we must add from main server Virtualizor(VM) add slave servers(proxmox cluster nodes), and then our main server become a "Master server", from which we can setup any options on every slave nodes(needed some setup in API section(API token) inside proxmox):
 <img width="861" height="405" alt="image" src="https://github.com/user-attachments/assets/4cdf77ff-8d1b-45ef-9922-1b3c4fe649e5" />
 
-After that, we have 2 values(API token name & secret key), go to Master server to th panel, choose Servers--Add new server(and provide server info from the Slave server), then for a get access to creating, managing, deleting VMs, we provide 2 values from proxmox API section to the slave setup in left panel of main server Virtualizor:
+>After that, we have 2 values(API token name & secret key), go to Master server to th panel, choose Servers--Add new server(and provide server info from the Slave server), then for a get access to creating, managing, deleting VMs, we provide 2 values from proxmox API section to the slave setup in left panel of main server Virtualizor:
+
+*Proxmox API token creating*
 <img width="1078" height="445" alt="image" src="https://github.com/user-attachments/assets/872218b7-6d9e-44bf-99bb-4c82678b29b4" />
 
 Do the same with remain servers. Next step is adding LVM(multipath - pairs to all 3 nodes of cluster) storage, which have already setuped by other department(but you can imagine that the storage is just standard LVM, it doesnt matter in this case).
