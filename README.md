@@ -27,7 +27,7 @@
 - [Organization](#organization)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-- [Insights & Future Prospects](#insights-and-future-prospects)
+- [Insights & Future Prospects](#-insights-and-future-prospects)
 
 ---
 
