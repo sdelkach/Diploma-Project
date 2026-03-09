@@ -177,7 +177,7 @@ Result is:
 
 <img width="862" height="127" alt="image" src="https://github.com/user-attachments/assets/abb30475-971e-4310-b6bd-3cbc632c4b15" />
 
->Installation completed
+<p>*Installation completed*</p>
 
 <img width="606" height="175" alt="image" src="https://github.com/user-attachments/assets/f0561ec2-41be-4014-8acc-cdc607d27d0c" />
 Now, restart VM for complete changes and open in browser(https://external_ip/).
