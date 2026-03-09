@@ -312,17 +312,12 @@ Happy viewing!!!
 ## 💰 Economic Analysis
 ### Implementation Costs
 | Cost Category | Amount (RUB) | Amount (USD) |
-|--------|-------------|
+|---------------|--------------|--------------|
 | Labor (SysAdmin, 336 hours) | 180,000 |2,000 |
-|--------|-------------|
 | Labor (Engineer, 20 hours) | 14,286 | $160 |
-|--------|-------------|
 | Social Contributions (30.2%) | 58,675 | $650 |
-|--------|-------------|
 | Electricity (544 kWh) | 3,277 | $36 |
-|--------|-------------|
 | Equipment Amortization | 2,300 | $26 |
-|--------|-------------|
 | Total | 258,538 | $2,872 |
 
 
@@ -331,11 +326,9 @@ Happy viewing!!!
 
 ### Revenue Projection
 | VPS Type | Clients | Tariff (RUB/month) | Revenue (6 months) |
-|--------|-------------|
+|----------|---------|--------------------|--------------------|
 | Internal IP | 22 | 600 | 79,200 RUB |
-|--------|-------------|
 | External IP | 13 | 900 | 70,200 RUB |
-|--------|-------------|
 | Total | 35 | — | 149,400 RUB |
 
 >Payback Period
@@ -343,11 +336,9 @@ Formula: T_payback = Total_Costs / Monthly_Revenue
 T_payback = 258,538 RUB / 24,900 RUB/month ≈ 10.4 months
 
 | Metric | Value |
-|--------|-------------|
+|--------|-------|
 | Total Investment | 258,538 RUB ($2,872) |
-|--------|-------------|
 | Monthly Revenue | 24,900 RUB ($277) |
-|--------|-------------|
 | Payback Period | ~10 months |
 | ROI (Year 1) | 20% |
 
@@ -359,17 +350,12 @@ T_payback = 258,538 RUB / 24,900 RUB/month ≈ 10.4 months
 Achievements 
 
 | Goal | Status | Details |
-|--------|-------------|
+|------|--------|---------|
 | Proxmox Cluster Deployment | ✅ Complete | 3 nodes, HA enabled |
-|--------|-------------|
 | Virtualizor Integration | ✅ Complete | Master + 3 slaves |
-|--------|-------------|
 | Blesta Billing Setup | ✅ Complete | Module installed, configured|
-|--------|-------------|
 | Automated VPS Provisioning | ⚠️ Partial | API integration working, automation pending |
-|--------|-------------|
 | Client Portal | ✅ Complete | Order form, notifications |
-|--------|-------------|
 | Monitoring (Zabbix) | ✅ Complete | 200+ metrics, Telegram alerts |
 
 ---
@@ -377,13 +363,10 @@ Achievements
 ## Key Metrics
 
 | Metric | Before | After | Improvement |
-|--------|-------------|
+|--------|--------|-------|-------------|
 | VM Deployment Time | [ 1 day | 1-2 hours | 87% faster |
-|--------|-------------|
 | Incident Response | 4 hours |	2.4 hours | 40% faster |
-|--------|-------------|
 | Billing Accuracy | Manual | Automated | 100% accurate |
-|--------|-------------|
 | License Costs | VMware (high) | Proxmox (free) | ~$5,000/year saved |
 ---
 
