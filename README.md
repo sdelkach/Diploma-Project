@@ -221,11 +221,11 @@ Then, LogIn to the client Area and choose created package with a flexible option
 And cause we haven't right now working payment gateway, but we have also opportunity to accept service in the Staff Area:
 <img width="922" height="493" alt="image" src="https://github.com/user-attachments/assets/9fe97974-d28a-44ae-8682-94d8c7727536" />
 
-```
+
 Bottom line: we created packages in blesta billing, made a flexible customizable template in the Virtualizor panel, and also added all the performance options for launching VMs. Below I will demonstrate the working logic of the creation of the machines itself, since the goal of the project was not a fully working model (including payment through the payment gateway of client services), but a clear idea of how much the automation and well-coordinated work of the two services will simplify routine tasks, and will allow administrators to occasionally Interfere with the process of configuring-creating-deploying-works. Thus, this project fulfilled the main goal: to show the architecture and logic of work, from which it will be possible to start in the future. The project did not greatly affect the aspects of security and fault tolerance at the deep level, because the factor was that it was specifically a demonstration stand, but it is from this that you can start doing great things further, since the project has room for growth, there is something to refine, to modify the logic and etc. 
 Below I will show you a video of approximately the work without other improvements, but how it looks from the administrator's side, although it will affect the client-side parts at the beginning. 
 Happy viewing!!! 
-```
 
 
+![Watch the video](https://raw.githubusercontent.com/sdelkach/Diploma-Project/docs/IMG_20260309_141920_830.jpg)](https://raw.githubusercontent.com/sdelkach/Diploma-Project/docs/VID_20260309_140302_161.mp4) 
 
