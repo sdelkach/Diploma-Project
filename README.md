@@ -153,20 +153,19 @@ php-xml \
 php-mbstring \
 php-gd
 ```
-Full blesta installation guide is here: https://docs.blesta.com/installation
+> **Full blesta installation guide is here: https://docs.blesta.com/installation**
 
 #### 2) Setup 
-(This step should begining after virtualizor installation is already completed!!!)
+> **(This step should begining after virtualizor installation is already completed!!!)**
 
 Open in browser:
 ```
 https://your-domain.com/blesta (short path provided by our nginx reverse proxy)
 ```
 
-<p>And go to the packages settings, so, for Blesta, Virtualizor have official packages which installed by instructions:
+* And go to the packages settings, so, for Blesta, Virtualizor have official packages which installed by instructions:
 
 https://www.virtualizor.com/docs/billing/blesta-module/
-</p>
 
 
 <img width="957" height="376" alt="image" src="https://github.com/user-attachments/assets/a500733a-0aa1-445e-95a2-e05e81881007" />
@@ -175,13 +174,13 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 ### Virtualizor Panel
 #### 1) Installation
 
->(Just download official script and choose right options, after that press enter and wait)
+* **(Just download official script and choose right options, after that press enter and wait)**
 
 
 <img width="862" height="127" alt="image" src="https://github.com/user-attachments/assets/abb30475-971e-4310-b6bd-3cbc632c4b15" />
 
 ```markdown
-*Installation completed*
+**Installation completed**
 ```
 
 
@@ -194,7 +193,7 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 <img width="1161" height="582" alt="image" src="https://github.com/user-attachments/assets/d85e6dcd-afe4-46ce-a633-61903b3edccf" />
 
 
-* LogIn and checking important info in panel:
+* **LogIn and checking important info in panel:**
 
 
 <img width="1131" height="680" alt="image" src="https://github.com/user-attachments/assets/18894724-a326-4186-a8e2-c25897131755" />
@@ -207,21 +206,21 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 <img width="1156" height="480" alt="image" src="https://github.com/user-attachments/assets/6e0a77ea-8e5f-4a92-a16c-5393fe430f7b" />
 
 * Add ip pool, by recommended way in official docs: https://www.virtualizor.com/docs/admin-api/create-ip-pool/
-> External IP pool:
 
 
+> **External IP pool:**
 <img width="1287" height="686" alt="image" src="https://github.com/user-attachments/assets/c444f6e3-8a52-4972-b261-1ffc91499a0e" />
 
 
-> Internal IP pool:
+> **Internal IP pool:**
 <img width="1270" height="698" alt="image" src="https://github.com/user-attachments/assets/f3f3fc97-a528-420a-a121-6393400e4af5" />
 
 
-* After that, we early added media iso(just upload it from pc) for ending test of this whole project.
+* **After that, we early added media iso(just upload it from pc) for ending test of this whole project.**
 <img width="1142" height="286" alt="image" src="https://github.com/user-attachments/assets/328f8594-05a5-4a28-ada9-65c7a4cab252" />
 
 
-* Also i've added template(flexible paid tariff of service hosting).
+* **Also i've added template(flexible paid tariff of service hosting).**
 <img width="1216" height="547" alt="image" src="https://github.com/user-attachments/assets/d76b6713-f4c0-47bf-a0cc-5cc6013bdcc3" />
 
 
@@ -242,7 +241,7 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 >After that, we have 2 values(API token name & secret key), go to Master server to th panel, choose Servers--Add new server(and provide server info from the Slave server), then for a get access to creating, managing, deleting VMs, we provide 2 values from proxmox API section to the slave setup in left panel of main server Virtualizor:
 
 
-*Add info for managing slave server*
+* **Add info for managing slave server**
 <img width="1078" height="445" alt="image" src="https://github.com/user-attachments/assets/872218b7-6d9e-44bf-99bb-4c82678b29b4" />
 
 
@@ -264,20 +263,20 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 ---
 
 
-*Now, we can add package(with a specific options):
+* **Now, we can add package(with a specific options):**
 <img width="1137" height="487" alt="image" src="https://github.com/user-attachments/assets/a25c05b4-91f3-4a22-ad7f-35f05b6c33a6" />
 
 
 ---
 
 
-*Then, LogIn to the client Area and choose created package with a flexible options:
+* **Then, LogIn to the client Area and choose created package with a flexible options:**
 <img width="932" height="593" alt="image" src="https://github.com/user-attachments/assets/5ef37016-aab0-4ad9-9d57-84728023fdee" />
 
 
 ---
 
-*And cause we haven't right now working payment gateway, but we have also opportunity to accept service in the Staff Area:
+* **And cause we haven't right now working payment gateway, but we have also opportunity to accept service in the Staff Area:**
 <img width="922" height="493" alt="image" src="https://github.com/user-attachments/assets/9fe97974-d28a-44ae-8682-94d8c7727536" />
 
 
