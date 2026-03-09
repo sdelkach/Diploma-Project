@@ -191,21 +191,28 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 ```markdown
 **Installation completed**
 ```
-
+<br>
+<br>
 
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/f0561ec2-41be-4014-8acc-cdc607d27d0c" /></p>
 
+<br>
+<br>
 
 * **Restart the VM to apply changes and access the panel at https://external_ip/.**
 
 
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/d85e6dcd-afe4-46ce-a633-61903b3edccf" /></p>
-
+<br>
+<br>
 
 * **LogIn and checking important info in panel:**
 
 
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/18894724-a326-4186-a8e2-c25897131755" /></p>
+<br>
+<br>
+
 
 #### 2) IP Pools
 * Virtualizor panel need to know which exactly networks should be used in working with commercial services provided by platform VM creation. Now, you needed to add two main networks in Virtualizor, which get access customers to their remote VMs(services).
@@ -213,31 +220,32 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 
 
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/6e0a77ea-8e5f-4a92-a16c-5393fe430f7b" /></p>
+<br>
 
 * Add ip pool, by recommended way in official docs: https://www.virtualizor.com/docs/admin-api/create-ip-pool/
 
 
 > **External IP pool:**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/c444f6e3-8a52-4972-b261-1ffc91499a0e" /></p>
-
+<br>
 
 > **Internal IP pool:**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/f3f3fc97-a528-420a-a121-6393400e4af5" /></p>
-
+<br>
 
 ---
 
 
 * **After that, by early added media iso(just upload it from pc) for ending test of this whole project.**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/328f8594-05a5-4a28-ada9-65c7a4cab252" /></p>
-
+<br>
 
 ---
 
 
 * **Also, wad added template(flexible paid tariff of service hosting).**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/d76b6713-f4c0-47bf-a0cc-5cc6013bdcc3" /></p>
-
+<br>
 
 ---
 
@@ -250,7 +258,7 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 
 
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/4cdf77ff-8d1b-45ef-9922-1b3c4fe649e5" /></p>
-
+<br>
 
 ---
 
@@ -260,12 +268,12 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 
 * **Add info for managing slave server**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/872218b7-6d9e-44bf-99bb-4c82678b29b4" /></p>
-
+<br>
 
 * Do the same with remain servers. Next step is adding LVM(multipath - pairs to all 3 nodes of cluster) storage, already configured by another department(but you can imagine that the storage is just standard LVM, it doesnt matter in this case).
 
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/e1bf6cc1-79ee-46de-ac47-28311ac47db7" /></p>
-
+<br>
 
 ---
 
@@ -278,27 +286,27 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 * Like you see earlier in this project, you have integration (Blesta to Virtualizor) module, so by module, which provide a lot of useful functions, you have to setup one test package based on that module. Firstly you must create our 1st purchase form for customers:
 
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/acd78a42-a140-4d1d-ac3f-f31c7f1b0189" /></p>
-
+<br>
 
 ---
 
 
 * **Now, you can add a package(with specific options):**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/a25c05b4-91f3-4a22-ad7f-35f05b6c33a6" /></p>
-
+<br>
 
 ---
 
 
 * **Then, LogIn to the client Area and choose created package with a flexible options:**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/5ef37016-aab0-4ad9-9d57-84728023fdee" /></p>
-
+<br>
 
 ---
 
 * **Since a payment gateway is not yet configured, services can also be provisioned via the Staff Area.**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/9fe97974-d28a-44ae-8682-94d8c7727536" /></p>
-
+<br>
 
 ---
 * In summary, the project demonstrates automated VPS provisioning through integrated Blesta and Virtualizor modules. The setup provides a clear workflow for VM deployment and billing, showcasing the potential for further expansion, optimization, and automation in a data center environment. Security and fault tolerance were not fully implemented due to the demonstration nature of this project.
@@ -310,7 +318,7 @@ Demo video for administrator workflow.
 ## 🎥 Infrastructure
 
 [![Watch the video](docs/IMG_20260309_141920_830.jpg)](docs/VID_20260309_140302_161.mp4)(https://youtu.be/XYLq4wfqd-w)
-
+<br>
 ---
 
 ## 💰 Economic Analysis
@@ -323,7 +331,7 @@ Demo video for administrator workflow.
 | Electricity (544 kWh) | 3,277 | $36 |
 | Equipment Amortization | 2,300 | $26 |
 | Total | 258,538 | $2,872 |
-
+<br>
 
 > 💱 Exchange rate: 1 USD ≈ 90 RUB (2025)
 
@@ -335,9 +343,13 @@ Demo video for administrator workflow.
 | External IP | 13 | 900 | 70,200 RUB |
 | Total | 35 | — | 149,400 RUB |
 
+<br>
+
 >Payback Period
 Formula: T_payback = Total_Costs / Monthly_Revenue
 T_payback = 258,538 RUB / 24,900 RUB/month ≈ 10.4 months
+
+<br>
 
 | Metric | Value |
 |--------|-------|
@@ -345,13 +357,15 @@ T_payback = 258,538 RUB / 24,900 RUB/month ≈ 10.4 months
 | Monthly Revenue | 24,900 RUB ($277) |
 | Payback Period | ~10 months |
 | ROI (Year 1) | 20% |
-
+<br>
 
 ---
 
 ## Results
 
 Achievements 
+
+<br>
 
 | Goal | Status | Details |
 |------|--------|---------|
@@ -361,49 +375,55 @@ Achievements
 | Automated VPS Provisioning | ⚠️ Partial | API integration working, automation pending |
 | Client Portal | ✅ Complete | Order form, notifications |
 | Monitoring (Zabbix) | ✅ Complete | 200+ metrics, Telegram alerts |
+<br>
 
 ---
 
 ## Key Metrics
-
+<br>
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
 | VM Deployment Time | [ 1 day | 1-2 hours | 87% faster |
 | Incident Response | 4 hours |	2.4 hours | 40% faster |
 | Billing Accuracy | Manual | Automated | 100% accurate |
 | License Costs | VMware (high) | Proxmox (free) | ~$5,000/year saved |
+<br>
 ---
 
 ## Author
-
+<br>
 **Konstantin Petrov
 Network & System Administrator**
 | 📧 Email | sdelkasdelkovich@gmail.com |
 |--------|-------------|
 | 💬 Telegram | [@Username](https://t.me/yourfearis) |
-
+<br>
 
 ---
 
 ## Education
+<br>
 **St. Petersburg College of Electronics and Information Technology
 Network and System Administration (09.02.06)
 Expected Graduation: July 2025**
-
+<br>
 ---
 
 ## Organization
+<br>
 **LLC DC Zelobit (Data Center & ISP)
 Infrastructure support and implementation**
-
+<br>
 ---
 
 ## 📄 License
+<br>
 This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).
-
+<br>
 ---
-
+<br>
 ## 🙏 Acknowledgments
+<br>
 * LLC DC Zelobit (infrastructure support)
 * Virtualizor Team (documentation and API)
 * Proxmox Community (technical support)
