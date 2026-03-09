@@ -405,7 +405,7 @@ Network & System Administrator**
 | 💬 Telegram | [@Username](https://t.me/yourfearis) |
 
 
-
+---
 
 ## Education
 
@@ -414,20 +414,22 @@ Network & System Administrator**
 Network and System Administration (09.02.06)
 Expected Graduation: July 2025**
 
-
+---
 
 ## Organization
-<br>
+
 **LLC DC Zelobit (Data Center & ISP)
 Infrastructure support and implementation**
-<br>
 
+---
 
 ## 📄 License
-<br>
-**This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).**
 
+**This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).**
 <br>
+<br>
+
+
 ## 🙏 Acknowledgments
 <br>
 * LLC DC Zelobit (infrastructure support)
