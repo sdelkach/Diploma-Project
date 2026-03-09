@@ -214,13 +214,21 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/f3f3fc97-a528-420a-a121-6393400e4af5" /></p>
 
 
+---
+
+
 * **After that, we early added media iso(just upload it from pc) for ending test of this whole project.**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/328f8594-05a5-4a28-ada9-65c7a4cab252" /></p>
+
+
+---
 
 
 * **Also i've added template(flexible paid tariff of service hosting).**
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/d76b6713-f4c0-47bf-a0cc-5cc6013bdcc3" /></p>
 
+
+---
 
 
 ### Proxmox Cluster nodes
@@ -246,6 +254,9 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 * Do the same with remain servers. Next step is adding LVM(multipath - pairs to all 3 nodes of cluster) storage, which have already setuped by other department(but you can imagine that the storage is just standard LVM, it doesnt matter in this case).
 
 <p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/e1bf6cc1-79ee-46de-ac47-28311ac47db7" /></p>
+
+
+---
 
 
 ### Blesta - add 1st service
@@ -292,3 +303,38 @@ Happy viewing!!!
 
 ## Results
 
+---
+
+## Author
+
+**Konstantin Petrov
+Network & System Administrator**
+| 📧 Email | sdelkasdelkovich@gmail.com |
+|--------|-------------|
+| 💬 Telegram | [![](work account)](https://t.me/sdelka2608) |
+
+---
+
+## Education
+**St. Petersburg College of Electronics and Information Technology
+Network and System Administration (09.02.06)
+Expected Graduation: July 2025**
+
+---
+
+## Organization
+**LLC DC Zelobit (Data Center & ISP)
+Infrastructure support and implementation**
+
+---
+
+## 📄 License
+This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).
+
+---
+
+## 🙏 Acknowledgments
+* LLC DC Zelobit (infrastructure support)
+* Virtualizor Team (documentation and API)
+* Proxmox Community (technical support)
+* Blesta Team (billing module)
