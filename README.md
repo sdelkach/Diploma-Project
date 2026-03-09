@@ -381,7 +381,7 @@ T_payback = 258,538 RUB / 24,900 RUB/month ≈ 10.4 months
 | Monitoring (Zabbix) | ✅ Complete | 200+ metrics, Telegram alerts |
 <br>
 
----
+
 
 ## Key Metrics
 
@@ -393,7 +393,7 @@ T_payback = 258,538 RUB / 24,900 RUB/month ≈ 10.4 months
 | Billing Accuracy | Manual | Automated | 100% accurate |
 | License Costs | VMware (high) | Proxmox (free) | ~$5,000/year saved |
 
----
+
 
 ## Author
 
@@ -405,7 +405,7 @@ Network & System Administrator**
 | 💬 Telegram | [@Username](https://t.me/yourfearis) |
 
 
----
+
 
 ## Education
 
@@ -414,19 +414,19 @@ Network & System Administrator**
 Network and System Administration (09.02.06)
 Expected Graduation: July 2025**
 
----
+
 
 ## Organization
 <br>
 **LLC DC Zelobit (Data Center & ISP)
 Infrastructure support and implementation**
 <br>
----
+
 
 ## 📄 License
 <br>
 **This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).**
----
+
 <br>
 ## 🙏 Acknowledgments
 <br>
