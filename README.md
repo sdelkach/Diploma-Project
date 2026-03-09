@@ -54,7 +54,8 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 
 <br>
 <br>
-[Back to top](#table-of-contents)
+- [Back to top](#table-of-contents)
+
 ---
 
 ## 🏗️ Architecture
