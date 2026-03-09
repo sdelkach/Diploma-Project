@@ -18,7 +18,7 @@ Billing integration with Proxmox Virtualization.
 - [Technical Specifications](#technical-specifications)
 - [Rack Configuration](#rack-configuration)
 - [Virtual Infrastructure](#virtual-infrastructure)
-- [Configuration & setup](#configuration-&-setup)
+- [Configuration & setup](#configuration&setup)
 - [Infrastructure Demo](#infrastructure-demo)
 - [Results](#results)
 
