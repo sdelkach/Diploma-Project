@@ -161,8 +161,11 @@ Open in browser:
 ```
 https://your-domain.com/blesta (short path provided by our nginx reverse proxy)
 ```
-And go to the packages settings, so, for Blesta, Virtualizor have official packages which installed by instructions:
+
+<p>And go to the packages settings, so, for Blesta, Virtualizor have official packages which installed by instructions:
+
 https://www.virtualizor.com/docs/billing/blesta-module/
+</p>
 And, here it is:
 <img width="957" height="376" alt="image" src="https://github.com/user-attachments/assets/a500733a-0aa1-445e-95a2-e05e81881007" />
 
