@@ -15,14 +15,12 @@ Billing integration with Proxmox Virtualization.
 
 - [Overview](#-overview)
 - [Architecture](#-architecture)
-- [Hardware Specifications](#-hardware-specifications)
+- [Technical Specifications](#-technical-specifications)
+- [Rack Configuration](#-rack-configuration)
 - [Virtual Infrastructure](#-virtual-infrastructure)
-- [Implementation](#-implementation)
-- [Integration](#-integration)
-- [Economic Analysis](#-economic-analysis)
+- [Configuration & setup](#-configuration-&-setup)
+- [Infrastructure Demo](#-infrastructure-demo)
 - [Results](#-results)
-- [Documentation](#-documentation)
-- [Author](#-author)
 
 ---
 
@@ -291,4 +289,6 @@ Happy viewing!!!
 
 [![Watch the video](docs/IMG_20260309_141920_830.jpg)](docs/VID_20260309_140302_161.mp4)(https://youtu.be/XYLq4wfqd-w)
 
+
+## Results
 
