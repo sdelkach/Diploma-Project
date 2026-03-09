@@ -366,7 +366,8 @@ T_payback = 258,538 RUB / 24,900 RUB/month ≈ 10.4 months
 
 ## Results
 
-Achievements 
+
+**Achievements**
 
 <br>
 
@@ -383,33 +384,36 @@ Achievements
 ---
 
 ## Key Metrics
-<br>
+
+
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
 | VM Deployment Time | [ 1 day | 1-2 hours | 87% faster |
 | Incident Response | 4 hours |	2.4 hours | 40% faster |
 | Billing Accuracy | Manual | Automated | 100% accurate |
 | License Costs | VMware (high) | Proxmox (free) | ~$5,000/year saved |
-<br>
+
 ---
 
 ## Author
-<br>
+
+
 **Konstantin Petrov
 Network & System Administrator**
 | 📧 Email | sdelkasdelkovich@gmail.com |
 |--------|-------------|
 | 💬 Telegram | [@Username](https://t.me/yourfearis) |
-<br>
+
 
 ---
 
 ## Education
-<br>
+
+
 **St. Petersburg College of Electronics and Information Technology
 Network and System Administration (09.02.06)
 Expected Graduation: July 2025**
-<br>
+
 ---
 
 ## Organization
@@ -422,7 +426,6 @@ Infrastructure support and implementation**
 ## 📄 License
 <br>
 **This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).**
-<br>
 ---
 <br>
 ## 🙏 Acknowledgments
