@@ -27,7 +27,7 @@
 - [Organization](#organization)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-- [Insights & Future Prospects](#insights-&-future-prospects)
+- [Insights & Future Prospects](#insights-and-future-prospects)
 
 ---
 
@@ -449,7 +449,7 @@ Infrastructure support and implementation**
 ---
 
 
-## ✨ Insights & Future Prospects
+## ✨ Insights and Future Prospects
 
 This project demonstrates the practical implementation of **automated VPS provisioning, billing integration, and infrastructure orchestration** for a small-scale data center. It showcases the ability to **design, deploy, and manage complex virtualized environments** with minimal manual intervention.
 
