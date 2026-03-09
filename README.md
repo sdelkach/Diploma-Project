@@ -27,6 +27,7 @@
 - [Organization](#organization)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+- [Insights & Future Prospects](#insights-&-future-prospects)
 
 ---
 
@@ -61,7 +62,8 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 ### Network Topology
 
 *Network architecture diagram*
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/fc1ad91c-0df1-462f-85d7-59dd5324e84d" />
+<p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/fc1ad91c-0df1-462f-85d7-59dd5324e84d" /></p>
+
 
 ### VLAN Segmentation
 
@@ -75,10 +77,12 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 ![Architecture](docs/architecture.svg)
 
 ### HPE ProLiant DL360p Gen8 - Front View
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/b4c0d58e-5db2-4108-9a8c-9af6e58f64d3" />
+<p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/b4c0d58e-5db2-4108-9a8c-9af6e58f64d3" /></p>
+
 
 ### HPE ProLiant DL360p Gen8 - Rear View (Power & Network)
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/806854d4-6324-4ecd-b322-d690adb5f147" />
+<p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/806854d4-6324-4ecd-b322-d690adb5f147" /></p>
+
 
 ## Technical Specifications
 
@@ -118,15 +122,18 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 | **Virtualizor** | 3 | 6 GB | 100 GB | VLAN 503 + 669 | VPS Management |
 
 #### Nginx VM
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/f824082b-e4e3-4428-9e40-58686fcb9561" />
+<p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/f824082b-e4e3-4428-9e40-58686fcb9561" /></p>
+
 
 
 #### Virtualizor VM
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/066de80b-4bd9-4c8e-b007-b8ef211d1ac2" />
+<p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/066de80b-4bd9-4c8e-b007-b8ef211d1ac2" /></p>
+
 
 
 #### Blesta VM
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/a1284dbf-e247-4fdd-b770-687c36e1b94d" />
+<p align="center"><img width="650" alt="image" src="https://github.com/user-attachments/assets/a1284dbf-e247-4fdd-b770-687c36e1b94d" /></p>
+
 
 
 ## Configuration
