@@ -228,12 +228,16 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 
 ### Proxmox Cluster nodes
 
->For complete all components of this project, we should have finish setuping pre-prepared server nodes, which have already proxmox installation and just needed Virtualizor install above them(important: kernel should be exactly Proxmox, not kvm or another, else work will broke). Cause earlier i show you how install through the script that panel, i've skip that step.
+* For complete all components of this project, we should have finish setuping pre-prepared server nodes, which have already proxmox installation and just needed Virtualizor install above them(important: kernel should be exactly Proxmox, not kvm or another, else work will broke). Cause earlier i show you how install through the script that panel, i've skip that step.
 
->After we've installed Virtualizor on every proxmox node in cluster(3 of 3), we must add from main server Virtualizor(VM) add slave servers(proxmox cluster nodes), and then our main server become a "Master server", from which we can setup any options on every slave nodes(needed some setup in API section(API token) inside proxmox):
+* After we've installed Virtualizor on every proxmox node in cluster(3 of 3), we must add from main server Virtualizor(VM) add slave servers(proxmox cluster nodes), and then our main server become a "Master server", from which we can setup any options on every slave nodes(needed some setup in API section(API token) inside proxmox):
 
 
 <img width="861" height="405" alt="image" src="https://github.com/user-attachments/assets/4cdf77ff-8d1b-45ef-9922-1b3c4fe649e5" />
+
+
+---
+
 
 >After that, we have 2 values(API token name & secret key), go to Master server to th panel, choose Servers--Add new server(and provide server info from the Slave server), then for a get access to creating, managing, deleting VMs, we provide 2 values from proxmox API section to the slave setup in left panel of main server Virtualizor:
 
@@ -246,6 +250,7 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 
 <img width="492" height="123" alt="image" src="https://github.com/user-attachments/assets/e1bf6cc1-79ee-46de-ac47-28311ac47db7" />
 
+
 ### Blesta - add 1st service
 
 
@@ -256,19 +261,30 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 <img width="996" height="502" alt="image" src="https://github.com/user-attachments/assets/acd78a42-a140-4d1d-ac3f-f31c7f1b0189" />
 
 
->Now, we can add package(with a specific options):
+---
+
+
+*Now, we can add package(with a specific options):
 <img width="1137" height="487" alt="image" src="https://github.com/user-attachments/assets/a25c05b4-91f3-4a22-ad7f-35f05b6c33a6" />
 
 
->Then, LogIn to the client Area and choose created package with a flexible options:
+---
+
+
+*Then, LogIn to the client Area and choose created package with a flexible options:
 <img width="932" height="593" alt="image" src="https://github.com/user-attachments/assets/5ef37016-aab0-4ad9-9d57-84728023fdee" />
 
 
->And cause we haven't right now working payment gateway, but we have also opportunity to accept service in the Staff Area:
+---
+
+*And cause we haven't right now working payment gateway, but we have also opportunity to accept service in the Staff Area:
 <img width="922" height="493" alt="image" src="https://github.com/user-attachments/assets/9fe97974-d28a-44ae-8682-94d8c7727536" />
 
 
-* Bottom line: we created packages in blesta billing, made a flexible customizable template in the Virtualizor panel, and also added all the performance options for launching VMs. Below I will demonstrate the working logic of the creation of the machines itself, since the goal of the project was not a fully working model (including payment through the payment gateway of client services), but a clear idea of how much the automation and well-coordinated work of the two services will simplify routine tasks, and will allow administrators to occasionally Interfere with the process of configuring-creating-deploying-works. Thus, this project fulfilled the main goal: to show the architecture and logic of work, from which it will be possible to start in the future. The project did not greatly affect the aspects of security and fault tolerance at the deep level, because the factor was that it was specifically a demonstration stand, but it is from this that you can start doing great things further, since the project has room for growth, there is something to refine, to modify the logic and etc. 
+---
+* Bottom line: we created packages in blesta billing, made a flexible customizable template in the Virtualizor panel, and also added all the performance options for launching VMs. Below I will demonstrate the working logic of the creation of the machines itself, since the goal of the project was not a fully working model (including payment through the payment gateway of client services), but a clear idea of how much the automation and well-coordinated work of the two services will simplify routine tasks, and will allow administrators to occasionally Interfere with the process of configuring-creating-deploying-works. Thus, this project fulfilled the main goal: to show the architecture and logic of work, from which it will be possible to start in the future. The project did not greatly affect the aspects of security and fault tolerance at the deep level, because the factor was that it was specifically a demonstration stand, but it is from this that you can start doing great things further, since the project has room for growth, there is something to refine, to modify the logic and etc.
+
+
 * Below I will show you a video of approximately the work without other improvements, but how it looks from the administrator's side, although it will affect the client-side parts at the beginning. 
 Happy viewing!!! 
 
