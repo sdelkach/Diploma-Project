@@ -20,7 +20,7 @@ Billing integration with Proxmox Virtualization.
 - [Virtual Infrastructure](#virtual-infrastructure)
 - [Configuration](#configuration)
 - [Infrastructure](#-infrastructure)
-- [Results](#results)
+- [Results](#-results)
 
 ---
 
