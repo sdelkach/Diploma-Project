@@ -135,7 +135,7 @@ sudo apt install -y nginx nginx-extras libmodsecurity3
 > /etc/nginx/sites-available/billing
 
 
-<p align="center"><img width="1257" height="543" alt="image" src="https://github.com/user-attachments/assets/3c3d79f8-dae9-4643-b94d-22fa83e6b1e1" /></p>p
+<p align="center"><img width="1257" height="543" alt="image" src="https://github.com/user-attachments/assets/3c3d79f8-dae9-4643-b94d-22fa83e6b1e1" /></p>
 
 ### Blesta Billing System
 
