@@ -314,6 +314,7 @@ https://www.virtualizor.com/docs/billing/blesta-module/
 
 * Below I will show you a video of approximately the work without other improvements, but how it looks from the administrator's side, although it will affect the client-side parts at the beginning. 
 Demo video for administrator workflow.
+<br>
 
 ## 🎥 Infrastructure
 
