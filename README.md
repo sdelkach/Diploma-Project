@@ -170,7 +170,7 @@ php-gd
 > **Full blesta installation guide is here: https://docs.blesta.com/installation**
 
 #### 2) Setup 
-> **(This step should begining after virtualizor installation is already completed!!!)**
+> ⚠️⚠️⚠️**(This step should begining after virtualizor installation is already completed!!!)**⚠️⚠️⚠️
 
 Open in browser:
 ```
