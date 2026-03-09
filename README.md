@@ -289,6 +289,6 @@ Happy viewing!!!
 
 ## 🎥 Infrastructure Demo
 
-[[![Watch the video](docs/IMG_20260309_141920_830.jpg)](docs/VID_20260309_140302_161.mp4)](https://youtu.be/XYLq4wfqd-w)
+[[![Watch the video](docs/IMG_20260309_141920_830.jpg)](docs/VID_20260309_140302_161.mp4)(https://youtu.be/XYLq4wfqd-w)
 
 
