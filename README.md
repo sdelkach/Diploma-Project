@@ -166,7 +166,6 @@ https://your-domain.com/blesta (short path provided by our nginx reverse proxy)
 
 https://www.virtualizor.com/docs/billing/blesta-module/
 </p>
-Result is:
 <img width="957" height="376" alt="image" src="https://github.com/user-attachments/assets/a500733a-0aa1-445e-95a2-e05e81881007" />
 
 
