@@ -434,7 +434,9 @@ Infrastructure support and implementation**
 **This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).**
 <br>
 
-<p></p>
+<br>
+
+
 
 ## 🙏 Acknowledgments
 
