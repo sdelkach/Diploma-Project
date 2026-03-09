@@ -227,5 +227,5 @@ Below I will show you a video of approximately the work without other improvemen
 Happy viewing!!! 
 
 
-![Watch the video](https://raw.githubusercontent.com/sdelkach/Diploma-Project/docs/IMG_20260309_141920_830.jpg)](https://raw.githubusercontent.com/sdelkach/Diploma-Project/docs/VID_20260309_140302_161.mp4) 
+![Watch the video](https://raw.githubusercontent.com/sdelkach/Diploma-Project/main/docs/IMG_20260309_141920_830.jpg)](https://raw.githubusercontent.com/sdelkach/Diploma-Project/main/docs/VID_20260309_140302_161.mp4) 
 
