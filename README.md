@@ -428,7 +428,6 @@ Expected Graduation: July 2025**
 Infrastructure support and implementation**
 
 <br>
-<br>
 
 ## 📄 License
 
