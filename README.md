@@ -52,6 +52,9 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 - **99.9% SLA target**
 - **10 months payback period**
 
+<br>
+<br>
+[Back to top](#table-of-contents)
 ---
 
 ## 🏗️ Architecture
@@ -404,3 +407,19 @@ This project is part of diploma work at St. Petersburg College of Electronics an
 * Virtualizor Team (documentation and API)
 * Proxmox Community (technical support)
 * Blesta Team (billing module)
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
