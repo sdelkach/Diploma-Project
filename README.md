@@ -132,7 +132,7 @@ sudo apt update
 sudo apt install -y nginx nginx-extras libmodsecurity3
 ```
 #### 2) Configuration File:
-/etc/nginx/sites-available/billing
+> /etc/nginx/sites-available/billing
 
 <img width="1257" height="543" alt="image" src="https://github.com/user-attachments/assets/3c3d79f8-dae9-4643-b94d-22fa83e6b1e1" />
 
