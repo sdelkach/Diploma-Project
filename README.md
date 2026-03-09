@@ -25,8 +25,8 @@
 - [Author](#author)
 - [Education](#education)
 - [Organization](#organization)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
 - [Insights & Future Prospects](#-insights-and-future-prospects)
 
 ---
