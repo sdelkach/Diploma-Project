@@ -18,7 +18,7 @@ Billing integration with Proxmox Virtualization.
 - [Technical Specifications](#technical-specifications)
 - [Rack Configuration](#rack-configuration)
 - [Virtual Infrastructure](#virtual-infrastructure)
-- [Configuration & setup](#configuration&setup)
+- [Configuration & setup](#configuration-&-setup)
 - [Infrastructure](#infrastructure)
 - [Results](#results)
 
@@ -120,7 +120,7 @@ Proxmox VE + Virtualizor + Blesta integration for full automation.
 <img width="1050" height="423" alt="image" src="https://github.com/user-attachments/assets/a1284dbf-e247-4fdd-b770-687c36e1b94d" />
 
 
-## Configuration  & setup
+## Configuration & setup
 
 ### Nginx Reverse Proxy
 #### 1) Installation nginx & utilities
