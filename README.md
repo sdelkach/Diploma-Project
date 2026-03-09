@@ -318,11 +318,14 @@ Demo video for administrator workflow.
 ## 🎥 Infrastructure
 
 [![Watch the video](docs/IMG_20260309_141920_830.jpg)](docs/VID_20260309_140302_161.mp4)(https://youtu.be/XYLq4wfqd-w)
-<br>
+
 ---
 
+
+
+
 ## 💰 Economic Analysis
-### Implementation Costs
+### **Implementation Costs**
 | Cost Category | Amount (RUB) | Amount (USD) |
 |---------------|--------------|--------------|
 | Labor (SysAdmin, 336 hours) | 180,000 |2,000 |
@@ -336,7 +339,7 @@ Demo video for administrator workflow.
 > 💱 Exchange rate: 1 USD ≈ 90 RUB (2025)
 
 
-### Revenue Projection
+### **Revenue Projection**
 | VPS Type | Clients | Tariff (RUB/month) | Revenue (6 months) |
 |----------|---------|--------------------|--------------------|
 | Internal IP | 22 | 600 | 79,200 RUB |
@@ -345,7 +348,7 @@ Demo video for administrator workflow.
 
 <br>
 
->Payback Period
+>**Payback Period**
 Formula: T_payback = Total_Costs / Monthly_Revenue
 T_payback = 258,538 RUB / 24,900 RUB/month ≈ 10.4 months
 
@@ -418,7 +421,7 @@ Infrastructure support and implementation**
 
 ## 📄 License
 <br>
-This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).
+**This project is part of diploma work at St. Petersburg College of Electronics and Information Technology (2025).**
 <br>
 ---
 <br>
